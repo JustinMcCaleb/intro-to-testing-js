@@ -19,3 +19,7 @@ function isEven(input) {
     return parseFloat(input) % 2 === 0;
 }
 
+function isVowel(input) {
+    var vowel = ['a', 'A', 'e', 'E', 'i', 'I', 'o', 'O', 'u', 'U'];
+    return (vowel.includes(input));
+}
