@@ -23,3 +23,11 @@ function isVowel(input) {
     var vowel = ['a', 'A', 'e', 'E', 'i', 'I', 'o', 'O', 'u', 'U'];
     return (vowel.includes(input));
 }
+
+function add(num1, num2) {
+    if (isNaN(num1) || isNaN(num2)) {
+        return 'NaN';
+    } else {
+        return parseFloat(num1) + parseFloat(num2);
+    }
+}
