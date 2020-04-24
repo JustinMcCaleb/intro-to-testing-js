@@ -10,3 +10,7 @@ function sayHello(input) {
         return 'Hello, World!';
     }
 }
+
+function isFive(input) {
+    return parseFloat(input) === 5;
+}
